@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+
+ <?php
+ require_once('php/db.php');
+ ?>
+
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,13 +15,13 @@
     <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
 
     <!-- Main css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=<?= ver() ?>">
 </head>
 <body class="sign-in">
 
     <div>
 
-        <!-- Sing in  Form -->
+        <!-- Sing in  Form -->gggg
         <section>
             <div class="container">
                 <div>
