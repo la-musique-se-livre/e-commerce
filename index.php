@@ -2,7 +2,7 @@
  <?php
  require_once('php/db.php');
  ?>
-
+lol
  <!DOCTYPE html>
 <html lang="en">
 <head>
