@@ -9,16 +9,16 @@
 
 <body>
 
-    <nav class="menu">
+<nav class="menu">
 
-      <ul>
-          <li> <a href ="   "> Livres </a></li>
-          <li> <a href ="   "> CDs </a></li>
-          <li> <a href ="   "> Vinyles </a></li>
-          <li> <a href ="   "> Nous contacter </a></li>
-      </ul>
+<ul>
+    <li class="btn"> <a href ="   "> Livres </a></li>
+    <li class="btn"> <a href ="   "> CDs </a></li>
+    <li class="btn"> <a href ="   "> Vinyles </a></li>
+    <li class="btn"> <a href ="   "> Nous contacter </a></li>
+</ul>
 
-    </nav>
+</nav>
 
   <input type="search" id="search" value="" onchange="ouvrirpage()">
   <input type="button"id="button" onclick="ouvrirpage()" value="Rechercher">
