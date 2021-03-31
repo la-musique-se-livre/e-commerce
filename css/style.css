@@ -419,7 +419,7 @@ label {
 
 label.error {
   position: relative;
-  background: url("../images/unchecked.gif") no-repeat;
+  background: url("../images/unch.material-icons-nameecked.gif") no-repeat;
   background-position-y: 3px;
   padding-left: 20px;
   display: block;
@@ -604,4 +604,9 @@ label.valid {
   
 }
 
-/*# sourceMappingURL=style.css.map */
+.woze20{
+  width: 39%;
+  margin: auto;
+  margin-left: 166px;
+}
+

@@ -19,7 +19,6 @@
 <body class="sign-in">
 
     <div>
-
         
         <section>
             <div class="container">
@@ -27,7 +26,7 @@
                     
 
                     <div class="signin-form">
-                        <h2 class="form-title">Login</h2>
+                 <div> <img class="woze20" src="../images/image.png"/></div>
                         <form method="POST" class="register-form" id="login-form">
                             <div class="form-group">
                                 <label for="email"><i class="zmdi zmdi-account material-icons-name"></i></label>
@@ -51,8 +50,6 @@
 
     </div>
 
-    <!-- JS -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="js/main.js"></script>
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+   
+</body>
 </html>
