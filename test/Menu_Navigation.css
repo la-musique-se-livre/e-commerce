@@ -1,20 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+html, body {
+    margin: 0; padding : 0;
+    font-family: 'Lato';
+}
+
+.inner {
+    width: 80%;
+    margin : auto;
+}
 
 
-nav.menu ul li.btn {
+
+img.woze20 {
+	width: 150px;
+	height: 150px;
+}
+
+
+nav.menu {
     list-style-type: none;
     display: inline-block;
 }
 
-nav.menu ul li.btn a {
+nav.menu a {
     text-decoration: none;
-    color: white;
-    background-color: #6495ED;
-    padding : 10px
+    color: #6495ED ;
+    background-color: white;
+    font-weight: 700;
+    padding : 30px ; margin : 0 10px;
+    
 }
-
-
-nav.menu ul li.btn a:hover {
-    color : #6495ED;
-    background-color : white; 
-
+nav.menu a:hover {
+    color :  white;
+    background-color :#6495ED; 
 }

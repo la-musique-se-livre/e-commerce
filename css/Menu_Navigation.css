@@ -1,3 +1,8 @@
+img.woze20 {
+	width: 350px;
+	height: 350px;
+}
+
 nav.menu ul li.btn {
     list-style-type: none;
     display: inline-block;
@@ -7,9 +12,10 @@ nav.menu ul li.btn a {
     text-decoration: none;
     color: white;
     background-color: #6495ED;
-    padding : 10px
+    padding : 50px 
+    
 }
-nav.menu ul li.btn :hover a {
+nav.menu ul li.btn a:hover {
     color : #6495ED;
     background-color : white; 
 }

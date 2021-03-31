@@ -3,24 +3,15 @@
 
 <head>
     <meta charset="utf-8">
-    <Title>Histoire A Raconter - Accueil</Title>
+    <Title>La musique se livre - Accueil</Title>
     <link rel = "stylesheet" href = "css/Menu_Navigation.css">
 </head>
 
 <body>
 
-<nav class="menu">
+<img class="woze20" src="images/image.png">
 
-<ul>
-    <li class="btn"> <a href ="   "> Livres </a></li>
-    <li class="btn"> <a href ="   "> CDs </a></li>
-    <li class="btn"> <a href ="   "> Vinyles </a></li>
-    <li class="btn"> <a href ="   "> Nous contacter </a></li>
-</ul>
-
-</nav>
-
-  <input type="search" id="search" value="" onchange="ouvrirpage()">
+<input type="search" id="search" value="" onchange="ouvrirpage()">
   <input type="button"id="button" onclick="ouvrirpage()" value="Rechercher">
 
 
@@ -31,6 +22,7 @@
         border: 2px solid black;
       } 
 
+      
     #button{
         border-radius: 30px;
         border: 1px solid black;
@@ -55,6 +47,19 @@
       
   </script>  
 
+
+<nav class="menu">
+
+<ul>
+    <li class="btn"> <a href ="http:www.exemple-de-livres.com"> Livres </a></li>
+    <li class="btn"> <a href =" http:www.exemple-de-cd.com  "> CDs </a></li>
+    <li class="btn"> <a href =" http:www.exemple-de-vinyless.com  "> Vinyles </a></li>
+    <li class="btn"> <a href =" http:www.exemple-de-contact.com  "> Nous contacter </a></li>
+</ul>
+
+</nav>
+
+  
 
 </body>
 
