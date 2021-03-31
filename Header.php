@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <Title>Histoire A Raconter - Accueil</Title>
-    <link rel = "stylesheet" href = "Menu_Navigation.css">
+    <link rel = "stylesheet" href = "css/Menu_Navigation.css">
 </head>
 
 <body>
