@@ -4,8 +4,8 @@
   <head>
     <meta charset="utf-8">
     <Title>La musique se livre - Accueil</Title>
-    <link rel = "stylesheet" href = "/css/Menu_Navigation.css">
-    <link rel = "stylesheet" href = "/css/header.css">
+    <link rel = "stylesheet" href = "css/Menu_Navigation.css">
+    <link rel = "stylesheet" href = "css/header.css">
 
     <script src="https://use.fontawesome.com/4a30e1716d.js"></script>
 </head>
@@ -20,7 +20,7 @@
 
           <div class = "m-left">
             
-            <img class="woze20" src="image.png">
+            <img class="woze20" src="images/image.png">
 
           </div>
         
@@ -53,7 +53,7 @@
                 <a href =" http:www.exemple-de-vinyless.com  "><i class="fa fa-bars" aria-hidden="true"></i> Vinyles </a>
                 <a href =" http:www.exemple-de-contact.com  "> Nous contacter </a>     
                  <nav class = "connecter" >
-                <a href  =" /login/index.php "> Se connecter </a>  
+                <a href  =" login/index.php "> Se connecter </a>  
                 </nav>                   
                 <a href =" http:www.exemple-de-panier.com  "><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>               
               </nav>
