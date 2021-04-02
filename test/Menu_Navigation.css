@@ -15,11 +15,16 @@ img.woze20 {
 	height: 150px;
 }
 
-
 nav.menu {
     list-style-type: none;
     display: inline-block;
 }
+
+nav.connecter {
+    list-style-type: none;
+    display: inline-block;
+}
+
 
 nav.menu a {
     text-decoration: none;
@@ -34,3 +39,13 @@ nav.menu a:hover {
     background-color :#6495ED; 
 }
 
+nav.connecter a {
+    color : rgb(18, 163, 18) ;
+    background-color: white;
+}
+
+nav.connecter a:hover {
+    color : white;
+    background-color :rgb(18, 163, 18) ;
+    
+}

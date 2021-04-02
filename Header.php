@@ -1,65 +1,70 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+  <head>
     <meta charset="utf-8">
     <Title>La musique se livre - Accueil</Title>
-    <link rel = "stylesheet" href = "css/Menu_Navigation.css">
+    <link rel = "stylesheet" href = "/css/Menu_Navigation.css">
+    <link rel = "stylesheet" href = "/css/header.css">
+
+    <script src="https://use.fontawesome.com/4a30e1716d.js"></script>
 </head>
 
 <body>
 
-<img class="woze20" src="images/image.png">
-
-<input type="search" id="search" value="" onchange="ouvrirpage()">
-  <input type="button"id="button" onclick="ouvrirpage()" value="Rechercher">
+    <header role = "header">
+      <nav class = "menu" role = "navigation">
 
 
-  <style>
-    
-    #search{
-        border-radius: 5px;
-        border: 2px solid black;
-      } 
+        <div class = "inner">
 
-      
-    #button{
-        border-radius: 30px;
-        border: 1px solid black;
-        cursor: pointer;
-    }
-  </style>
+          <div class = "m-left">
+            
+            <img class="woze20" src="image.png">
 
-    <script>
-      function ouvrirpage(){
+          </div>
+        
 
-          var a = document.getElementById("search").value;
-          if(a === livre ){ // Si la personne écrit livre (a=== Livres)
-              <a href ="   /index.html"> Le nom </a> // Alors on ouvre la page des livres (livres/index.html)
-          }
-          if(a === cd ){ 
-              <a href ="   /index.html"> Le nom </a>
-          }
-          if(a === vinyle ){ 
-              <a href ="   /index.html"> Le nom </a> 
-          }
-      }
-      
-  </script>  
+          <input type = "search" class = "search" value="" onchange = "ouvrirpage()">
+          <input type = "button" class="button" onclick = "ouvrirpage()" value = "Rechercher">
 
+            <style>   
+              #search{
+              border-radius: 5px;
+              border: 2px solid black;
+              
+            }      
+              #button{
+              border-radius: 30px;
+              border: 1px solid black;
+              cursor: pointer;
+            }
+            </style>
 
-<nav class="menu">
+          <div class = "m-right">
 
-<ul>
-    <li class="btn"> <a href ="http:www.exemple-de-livres.com"> Livres </a></li>
-    <li class="btn"> <a href =" http:www.exemple-de-cd.com  "> CDs </a></li>
-    <li class="btn"> <a href =" http:www.exemple-de-vinyless.com  "> Vinyles </a></li>
-    <li class="btn"> <a href =" http:www.exemple-de-contact.com  "> Nous contacter </a></li>
-</ul>
+             
 
-</nav>
+              <nav class="menu">
 
-  
+            
+                <a href ="http:www.exemple-de-livres.com"><i class="fa fa-bars" aria-hidden="true"></i> Livres </a>
+                <a href =" http:www.exemple-de-cd.com  "><i class="fa fa-bars" aria-hidden="true"></i> CDs </a>
+                <a href =" http:www.exemple-de-vinyless.com  "><i class="fa fa-bars" aria-hidden="true"></i> Vinyles </a>
+                <a href =" http:www.exemple-de-contact.com  "> Nous contacter </a>     
+                 <nav class = "connecter" >
+                <a href  =" /login/index.php "> Se connecter </a>  
+                </nav>                   
+                <a href =" http:www.exemple-de-panier.com  "><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>               
+              </nav>
+
+                
+
+          </div>
+        </div>
+      </nav>
+    </header>
+
 
 </body>
 

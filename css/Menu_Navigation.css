@@ -1,21 +1,51 @@
-img.woze20 {
-	width: 350px;
-	height: 350px;
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+html, body {
+    margin: 0; padding : 0;
+    font-family: 'Lato';
 }
 
-nav.menu ul li.btn {
+.inner {
+    width: 90%;
+    margin : auto;
+}
+
+img.woze20 {
+	width: 150px;
+	height: 150px;
+}
+
+nav.menu {
     list-style-type: none;
     display: inline-block;
 }
 
-nav.menu ul li.btn a {
+nav.connecter {
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+nav.menu a {
     text-decoration: none;
-    color: white;
-    background-color: #6495ED;
-    padding : 50px 
+    color: #6495ED ;
+    background-color: white;
+    font-weight: 700;
+    padding : 30px ; margin : 0, 10px;
     
 }
-nav.menu ul li.btn a:hover {
-    color : #6495ED;
-    background-color : white; 
+nav.menu a:hover {
+    color :  white;
+    background-color :#6495ED; 
+}
+
+nav.connecter a {
+    color : rgb(18, 163, 18) ;
+    background-color: white;
+}
+
+nav.connecter a:hover {
+    color : white;
+    background-color :rgb(18, 163, 18) ;
+    
 }
