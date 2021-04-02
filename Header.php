@@ -25,8 +25,11 @@
           </div>
         
 
-          <a href =" http:www.exemple-de-page.com"> </a> <i class = "fa fa-search" aria-hidden="true"> </i>
-          <input class="search" onclick = "ouvrirpage()" placeholder = "Rechercher">
+         <input type="search" id="site-search" name="q"
+       aria-label="Search through site content" class="recherche">
+
+       <button id="loupe" type="submit" class="icone-loupe"></button>
+
            
 
           <div class = "m-right">
