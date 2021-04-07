@@ -10,8 +10,21 @@ img.woze20 {
 	height: 150px;
 }
 
+nav.l-menu {
+    list-style-type: none;
+    display: inline-block;
+}
+
 nav.l-menu a {
     text-decoration: none;
+    color: #6495ED ;
+    background-color : white ;
+    font-weight: 700;
+}
+
+nav.l-menu a:hover {
+    color :  white;
+    background-color :#6495ED; 
 }
 
 nav.l-menu ul {
