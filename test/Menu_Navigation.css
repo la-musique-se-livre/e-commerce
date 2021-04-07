@@ -10,12 +10,9 @@ img.woze20 {
 	height: 150px;
 }
 
-nav.l-menu {
+nav.l-menu a {
     list-style-type: none;
     display: inline-block;
-}
-
-nav.l-menu a {
     text-decoration: none;
     color: #6495ED ;
     background-color : white ;
@@ -29,7 +26,7 @@ nav.l-menu a:hover {
 
 nav.l-menu ul {
     list-style-type: none;
-    margin : 60;    
+    margin : 60;   
 }
 
 nav.l-menu ul li {
@@ -38,7 +35,7 @@ nav.l-menu ul li {
     background-color: white;
     display: inline-block;
     line-height: 35px;
-    text-align : center;
+    text-align : left;   
 }
 
 nav.l-menu ul li ul li  {
@@ -49,7 +46,6 @@ nav.l-menu ul li:hover ul li {
     display: block;    
 }
 
-
 nav.connecter a {
     color : rgb(18, 163, 18) ;
     background-color : white ;
@@ -59,7 +55,5 @@ nav.connecter a {
 nav.connecter a:hover {
     color : white;
     background-color :rgb(18, 163, 18) ;
-    display: block;
-    
-    
+    display: block; 
 }

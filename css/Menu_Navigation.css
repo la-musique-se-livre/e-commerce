@@ -25,7 +25,6 @@ nav.connecter {
     display: inline-block;
 }
 
-
 nav.l-menu a {
     text-decoration: none;
     color: #6495ED ;
@@ -34,6 +33,7 @@ nav.l-menu a {
     padding : 30px ; margin : 0, 10px;
     
 }
+
 nav.l-menu a:hover {
     color :  white;
     background-color :#6495ED; 
@@ -46,6 +46,5 @@ nav.connecter a {
 
 nav.connecter a:hover {
     color : white;
-    background-color :rgb(18, 163, 18) ;
-    
+    background-color :rgb(18, 163, 18);    
 }
