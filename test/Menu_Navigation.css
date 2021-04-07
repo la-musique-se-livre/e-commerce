@@ -5,28 +5,26 @@ html, body {
     font-family: 'Lato';
 }
 
-
 img.woze20 {
 	width: 150px;
 	height: 150px;
 }
 
+nav.l-menu a {
+    text-decoration: none;
+}
+
 nav.l-menu ul {
     list-style-type: none;
-    margin : 0;
-    padding : 0;
+    margin : 60;    
 }
 
 nav.l-menu ul li {
-    margin : 0;
-    padding : 0;
-    float = right;
     width: 200px;
-    height: 40px;
     color: #6495ED ;
     background-color: white;
     display: inline-block;
-    line-height: 40px;
+    line-height: 35px;
     text-align : center;
 }
 
@@ -35,13 +33,7 @@ nav.l-menu ul li ul li  {
 }
 
 nav.l-menu ul li:hover ul li {
-    display: block;
-    color :  white;
-    background-color :#6495ED; 
-}
-
-nav.l-menu a {
-    text-decoration: none; 
+    display: block;    
 }
 
 
