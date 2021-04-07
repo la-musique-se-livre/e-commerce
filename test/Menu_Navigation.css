@@ -5,47 +5,56 @@ html, body {
     font-family: 'Lato';
 }
 
-.inner {
-    width: 90%;
-    margin : auto;
-}
 
 img.woze20 {
 	width: 150px;
 	height: 150px;
 }
 
-nav.l-menu {
+nav.l-menu ul {
     list-style-type: none;
-    display: inline-block;
+    margin : 0;
+    padding : 0;
 }
 
-nav.connecter {
-    list-style-type: none;
-    display: inline-block;
-}
-
-
-nav.l-menu a {
-    text-decoration: none;
+nav.l-menu ul li {
+    margin : 0;
+    padding : 0;
+    float = right;
+    width: 200px;
+    height: 40px;
     color: #6495ED ;
     background-color: white;
-    font-weight: 700;
-    padding : 30px ; margin : 0, 10px;
-    
+    display: inline-block;
+    line-height: 40px;
+    text-align : center;
 }
-nav.l-menu a:hover {
+
+nav.l-menu ul li ul li  {
+    display : none;
+}
+
+nav.l-menu ul li:hover ul li {
+    display: block;
     color :  white;
     background-color :#6495ED; 
 }
 
+nav.l-menu a {
+    text-decoration: none; 
+}
+
+
 nav.connecter a {
     color : rgb(18, 163, 18) ;
-    background-color: white;
+    background-color : white ;
+    display : block
 }
 
 nav.connecter a:hover {
     color : white;
     background-color :rgb(18, 163, 18) ;
+    display: block;
+    
     
 }
