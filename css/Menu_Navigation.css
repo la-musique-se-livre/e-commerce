@@ -15,7 +15,7 @@ img.woze20 {
 	height: 150px;
 }
 
-nav.menu {
+nav.l-menu {
     list-style-type: none;
     display: inline-block;
 }
@@ -26,7 +26,7 @@ nav.connecter {
 }
 
 
-nav.menu a {
+nav.l-menu a {
     text-decoration: none;
     color: #6495ED ;
     background-color: white;
@@ -34,7 +34,7 @@ nav.menu a {
     padding : 30px ; margin : 0, 10px;
     
 }
-nav.menu a:hover {
+nav.l-menu a:hover {
     color :  white;
     background-color :#6495ED; 
 }

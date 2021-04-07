@@ -25,10 +25,9 @@
           </div>
         
 
-         <input type="search" id="site-search" name="q"
-       aria-label="Search through site content" class="recherche">
-
-       <button id="loupe" type="submit" class="icone-loupe"></button>
+        <input type="search" id="site-search" name="q"
+        aria-label="Search through site content" class="recherche">
+        <button id="loupe" type="submit" class="icone-loupe"></button>
 
            
 
@@ -36,16 +35,16 @@
 
              
 
-              <nav class="menu">
+              <nav class="l-menu" role = "navigation">
 
             
                 <a href ="http:www.exemple-de-livres.com"><i class="fa fa-bars" aria-hidden="true"></i> Livres </a>
                 <a href =" http:www.exemple-de-cd.com  "><i class="fa fa-bars" aria-hidden="true"></i> CDs </a>
                 <a href =" http:www.exemple-de-vinyless.com  "><i class="fa fa-bars" aria-hidden="true"></i> Vinyles </a>
                 <a href =" http:www.exemple-de-contact.com  "> Nous contacter </a>     
-                 <nav class = "connecter" >
-                <a href  =" login/index.php "> Se connecter </a>  
-                </nav>                   
+                  <nav class = "connecter" >
+                    <a href  =" login/index.php "> Se connecter </a>  
+                  </nav>                   
                 <a href =" http:www.exemple-de-panier.com  "><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>               
               </nav>
 
