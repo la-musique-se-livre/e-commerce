@@ -6,6 +6,11 @@
     <Title>La musique se livre - Accueil</Title>
     <link rel = "stylesheet" href = "css/Menu_Navigation.css">
     <link rel = "stylesheet" href = "css/header.css">
+    <?php 
+     include "php/db.php"
+     ?> 
+
+
 
     <script src="https://use.fontawesome.com/4a30e1716d.js"></script>
 </head>
@@ -52,8 +57,34 @@
 
           </div>
         </div>
-      </nav>
-    </header>
+            </header>
+
+
+
+
+
+
+        <div class="vitrine0">
+
+        <?php $reponse=$bdd->query('SELECT * FROM produit'); 
+        while($donnees = $reponse->fetch()) 
+{
+  ?>
+     
+
+         <div class="vitrine"> 
+            <p>  <img src="<?php echo $donnees['image']; ?>" alt="fdssd" /> </p>
+          <div class="text"> 
+          <p><?php echo $donnees['nom']; ?> </p>
+          </div>
+          </div>
+        
+<?php } $reponse->closeCursor() ; ?>
+
+</div>
+
+      
+   
 
 
 </body>
