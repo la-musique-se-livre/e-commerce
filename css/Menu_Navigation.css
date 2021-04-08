@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
-
-html, body {
-    margin: 0; padding : 0;
+html,
+body {
+    margin: 0;
+    padding: 0;
     font-family: 'Lato';
 }
 
 .inner {
-    width: 90%;
-    margin : auto;
+    margin: auto;
+    background: #6495ED;
+    width: 100%;
+    height: 111px;
 }
 
 img.woze20 {
-	width: 150px;
-	height: 150px;
+    width: 150px;
+    height: 150px;
 }
 
 nav.l-menu {
@@ -27,24 +30,88 @@ nav.connecter {
 
 nav.l-menu a {
     text-decoration: none;
-    color: #6495ED ;
+    color: #6495ED;
     background-color: white;
     font-weight: 700;
-    padding : 30px ; margin : 0, 10px;
-    
+    padding: 30px;
+    margin: 0, 10px;
 }
 
 nav.l-menu a:hover {
-    color :  white;
-    background-color :#6495ED; 
+    color: white;
+    background-color: #6495ED;
 }
 
 nav.connecter a {
-    color : rgb(18, 163, 18) ;
+    color: rgb(18, 163, 18);
     background-color: white;
 }
 
 nav.connecter a:hover {
-    color : white;
-    background-color :rgb(18, 163, 18);    
+    color: white;
+    background-color: rgb(18, 163, 18);
+}
+
+nav {
+    float: right;
+    /* positionne le menu à droite */
+}
+
+.menu1 {
+    list-style-type: none;
+    margin-top: -63px;
+}
+
+.menu1>li {
+    display: inline-block;
+    /* met les "li" en ligne */
+    margin: 5px;
+}
+
+.menu1>li>a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 44px;
+    font-size: 0.9em;
+}
+
+.services {
+    position: relative;
+    /* Pour positionner le sous menu par rapport à son parent ".services" */
+}
+
+.sous-menu {
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    left: -53px;
+    top: 164px;
+    width: 173%;
+    /* max-height: 0; */
+    overflow: hidden;
+    transition: display 0.50s ease;
+    padding: 0;
+    margin: 5px 0;
+}
+
+.services:hover>.sous-menu {
+    display: block;
+    /* Pour afficher le menu après le "hover" */
+}
+
+.sous-menu>li {
+    text-align: center;
+    background-color: #6495ed;
+    line-height: 1.5em;
+    font-size: 1em;
+    padding: 5px 0;
+    border: 0px #fff solid;
+}
+
+.sous-menu>li>a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    color: #fff;
 }

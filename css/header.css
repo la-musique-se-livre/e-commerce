@@ -1,5 +1,4 @@
 .menu {
-    background: #6495ED;
     width: 100%;
     height: 40px;
     line-height: 166px;
@@ -50,7 +49,7 @@
 
 .vitrine img {
     margin-left: 0px;
-    margin-top: -176px;
+    margin-top: -8px;
     height: 376px;
     width: 276px;
     border-radius: 21px;
