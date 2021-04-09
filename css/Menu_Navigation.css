@@ -82,21 +82,20 @@ nav {
 }
 
 .sous-menu {
-    display: none;
     list-style-type: none;
     position: absolute;
-    left: -53px;
-    top: 164px;
-    width: 173%;
-    /* max-height: 0; */
+    left: -1px;
+    width: 121%;
+    max-height: 0;
     overflow: hidden;
-    transition: display 0.50s ease;
+    transition: max-height 1.0s;
     padding: 0;
-    margin: 5px 0;
+    margin: -85px 0px;
 }
 
 .services:hover>.sous-menu {
     display: block;
+    max-height: 600px;
     /* Pour afficher le menu après le "hover" */
 }
 
