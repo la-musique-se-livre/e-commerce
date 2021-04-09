@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <Title>La musique se livre Accueil</Title>
+    <Title>La musique se livrej Accueil</Title>
     <link rel="stylesheet" href="css/Menu_Navigation.css" />
     <link rel="stylesheet" href="css/header.css" />
     <?php 
