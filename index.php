@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <Title>La musique se livre - Accueil</Title>
+    <Title> Accueil</Title>
     <link rel="stylesheet" href="css/Menu_Navigation.css" />
     <link rel="stylesheet" href="css/header.css" />
     <?php 
@@ -31,7 +31,7 @@
 
           <nav>
             <ul class="menu1">
-                <li><a href="#" title="">Homme</a></li>
+                <li><a href="#" title="">Home</a></li>
                 <li class="services"><a href="#" title="">Services</a>
                     <ul class="sous-menu">
                     <li><a href="#" title="">Nouveautés</a></li>
