@@ -31,7 +31,7 @@
 
           <nav>
             <ul class="menu1">
-                <li><a href="#" title="">Home</a></li>
+                <li><a href="#" title="">Homme</a></li>
                 <li class="services"><a href="#" title="">Services</a>
                     <ul class="sous-menu">
                     <li><a href="#" title="">Nouveautés</a></li>
