@@ -1,3 +1,8 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    font-size: 17px;
+}
+
 .menu {
     width: 100%;
     height: 40px;
@@ -31,10 +36,13 @@
 }
 
 .vitrine {
-    height: 371px;
-    width: 273px;
-    margin-top: 100px;
-    margin-left: 104px;
+    height: 538px;
+    width: 368px;
+    margin-top: 129px;
+    margin-left: 229px;
+    background: #e4e4e4;
+    border-radius: 10px;
+    border: solid;
 }
 
 .vitrine p {
@@ -48,14 +56,53 @@
 }
 
 .vitrine img {
-    margin-left: 0px;
-    margin-top: -8px;
-    height: 376px;
-    width: 276px;
-    border-radius: 21px;
+    margin-left: 83px;
+    margin-top: 25px;
+    height: 307px;
+    width: 222px;
+    border-radius: 11px;
 }
 
 .text {
-    margin-left: 121px;
-    margin-top: -7px;
+    margin-left: 22px;
+    margin-top: -11px;
+}
+
+.vitrine05 {
+    background: #e7e7e7;
+    height: -11px;
+    width: 383px;
+    margin-top: 105px;
+}
+
+.bouton20 {
+    background-color: white;
+    position: relative;
+    top: 485px;
+    left: 223px;
+    padding: 4px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.imge {
+    height: -11px;
+    width: 383px;
+    margin-top: 105px;
+    border-radius: 10px;
+    margin-top: 91px;
+    margin-left: 200px;
+}
+
+.texte {
+    font-size: 37px;
+    position: relative;
+    top: -753px;
+    left: 160px;
+}
+
+.texte2 {
+    font-size: 37px;
+    position: relative;
+    top: -753px;
+    left: 444px;
 }
