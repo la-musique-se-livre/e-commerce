@@ -53,7 +53,13 @@ nav.connecter a:hover {
 
 nav {
     float: right;
+   
+    
+   /* position: absolute;
+    right : 500px;
+    
     /* positionne le menu à droite */
+      
 }
 
 .menu1 {
@@ -113,3 +119,5 @@ nav {
     width: 100%;
     color: #fff;
 }
+
+  
