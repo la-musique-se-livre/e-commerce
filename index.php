@@ -93,6 +93,7 @@
                 <li> <a href =" http:www.exemple-de-panier.com  "><i class="fa fa-shopping-basket" aria-hidden="true"></i></a></li>
                 
             </ul>
+       
         </nav>
         </div>
       </nav>
