@@ -4,8 +4,9 @@
 <head>
     <meta charset="utf-8" />
     <Title>La musique se livre Accueill</Title>
-    <link rel="stylesheet" href="../css/Menu_Navigation.css" />
-    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/Menu_Navigation1.css" />
+  <link rel="stylesheet" href="../css/header.css" />
+  <link rel="stylesheet" href="../css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Karantina:wght@300&display=swap" rel="stylesheet">
     <?php
