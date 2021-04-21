@@ -28,7 +28,7 @@
                 $donnees = $reponse->fetch();
         ?>
 
-                <div class="imge">
+                <div class="contour">
                     <?php
                     $cheminimg = "/ppe/images/livre/" . $donnees['id'] . "_1.png";
                     echo "<img src = '$cheminimg' alt='' class='vitrine05' >";
@@ -37,10 +37,21 @@
                     <p class="vitrine05"></p>
 
                     <div>
-                        <p class="texte"><?php echo $donnees['nom']; ?></p>
-                        <p class="texte2"><?php echo $donnees['prix']; ?>€</p>
+                        <p class="contour1"><?php echo $donnees['description']; ?></p>
+                        
+                    </div>
+
+                    <div class="contour2">
+                    <p class="text03"><?php echo $donnees['prix']; ?>€</p>
+                    <h5 class="texte"><?php echo $donnees['nom']; ?></h5>
+                    <h1 class="texte02">prix:</h1>
+                    <h1 class="texte02">Stock:</h1>
+                    <h1 class="texte02">Quantité:</h1>
                     </div>
                 </div>
+
+                
+               
 
         <?php
             }

@@ -39,7 +39,7 @@ body {
     height: 538px;
     width: 368px;
     margin-top: 129px;
-    margin-left: 229px;
+    margin-left: 82px;
     background: #e4e4e4;
     border-radius: 10px;
     border: solid;
@@ -71,8 +71,10 @@ body {
 .vitrine05 {
     background: #e7e7e7;
     height: -11px;
-    width: 383px;
-    margin-top: 105px;
+    width: 203px;
+    margin-top: 114px;
+    flex: 4 0 auto;
+    margin: 13px -3px 3px 212px;
 }
 
 .bouton20 {
@@ -94,15 +96,61 @@ body {
 }
 
 .texte {
-    font-size: 37px;
-    position: relative;
-    top: -753px;
-    left: 160px;
+    font-size: 26px;
+    margin-top: -53px;
+    margin-left: 57px;
+    font-family: system-ui;
 }
 
 .texte2 {
-    font-size: 37px;
+    margin-top: 104px;
+    margin-left: 4px;
+    font-size: 24px;
+    font-family: auto;
+}
+
+.contour {
+    height: 344px;
+    width: 689px;
+    margin-top: 138px;
+    margin-left: 258px;
+    border-radius: 0px;
+    margin-bottom: 53px;
+    border: 1px solid #0080ff;
+}
+
+.contour1 {
+    height: auto;
+    width: auto;
     position: relative;
-    top: -753px;
-    left: 444px;
+    top: 21px;
+    margin-left: 0px;
+    border-radius: 7px;
+    margin-bottom: 53px;
+    border: 1px solid #0080ff;
+}
+
+.contour2 {
+    height: 603px;
+    width: 686px;
+    position: relative;
+    top: -536px;
+    left: 749px;
+    border-radius: 8px;
+    margin-bottom: 53px;
+    border: 1px solid #0080ff;
+}
+
+.texte02 {
+    margin-top: 132px;
+    margin-left: 4px;
+    font-size: 24px;
+    font-family: auto;
+}
+
+.text03 {
+    position: relative;
+    top: 157px;
+    left: 77px;
+    font-size: 19px;
 }
