@@ -29,10 +29,10 @@
 
       
         <div class="vitrine">
-        <a href="article/index.php?id=<?= $donnees["id"] ?>"><input class="bouton20" type="submit" value="Voir l'article"></a>
+        <a href="article/index.php?id=<?= $donnees["id"] ?>"><input class="bouton30" type="submit" value="Voir l'article"></a>
           <?php
           $cheminimg = "/ppe/images/livre/" . $donnees['id'] . "_1.png";
-          echo "<img src = '$cheminimg' alt='' class='vitrine05' >";
+          echo "<img src = '$cheminimg' alt='' class='vitrine06' >";
           ?>
           <p class="vitrine05"> </p>
           <div class="text">
@@ -40,6 +40,9 @@
             <p>prix: <?php echo $donnees['prix']; ?>€</p>
           </div>
         </div>
+
+
+
 
     <?php }
     $reponse->closeCursor(); ?>

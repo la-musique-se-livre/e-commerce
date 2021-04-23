@@ -1,0 +1,20 @@
+.recherches {
+    height: 533px;
+    width: 360px;
+    margin-top: 234px;
+    margin-left: 445px;
+    background: #e4e4e4;
+    border-radius: 10px;
+    border: solid;
+}
+
+.marque {
+    margin-top: -65px;
+    margin-left: 469px;
+}
+
+.img1 {
+    margin-top: 75px;
+    margin-left: 82px;
+    width: 180px;
+}

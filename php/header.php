@@ -5,8 +5,8 @@
         <img class="woze20" src="/ppe/images/image.png" />
       </div>
 
-      <input type="search" id="site-search" name="q" aria-label="Search through site content" class="recherche" />
-      <button id="loupe" type="submit" class="icone-loupe"></button>
+     <form method="GET" action="recherche.php"> <input type="search" id="site-search" name="q" aria-label="Search through site content" class="recherche" placeholder="recherche" />
+      <button id="loupe" type="submit" class="icone-loupe" value="Valider"></button></form>
       <button id="panier" type="submit" class="panier" href="https://wozeofficiel.site/"></button>
 
       <nav class="menu">

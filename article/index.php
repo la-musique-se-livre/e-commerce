@@ -36,20 +36,23 @@
                     ?>
 
                     <p class="vitrine05"></p>
-
+                    </div>
                     <div>
                         <p class="contour1"><?php echo $donnees['description']; ?></p>
                         
                     </div>
 
                     <div class="contour2">
-                    <p class="text03"><?php echo $donnees['prix']; ?>€</p>
+                    
                     <h5 class="texte"><?php echo $donnees['nom']; ?></h5>
-                    <h1 class="texte02">prix:</h1>
-                    <h1 class="texte02">Stock:</h1>
-                    <h1 class="texte02">Quantité:</h1>
+                    <h1 class="text03">prix :   <?php echo $donnees['prix']; ?>€</h1>
+                    <h1 class="texte02">disponible: <?php if ($donnees['disponible'] == 1) {echo "oui"; } else {echo "non"; }?></h1>
                     </div>
-                </div>
+
+                    <input class="bouton40" type="submit" value="Ajouter au panier">
+
+                    
+                
 
                 
                
