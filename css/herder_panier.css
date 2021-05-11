@@ -1,0 +1,496 @@
+.menu {
+    background: #6495ED;
+    height: 0rem;
+    height: 70px;
+}
+
+.menu ol {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.menu>ol {
+    max-width: 1000px;
+    padding: 0 2rem;
+    display: flex;
+}
+
+.menu>ol>.menu-item {
+    flex: 1;
+}
+
+.menu>ol>.menu-item:after {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    bottom: 5px;
+    left: calc(50% - 2px);
+    background: #6495ED;
+    will-change: transform;
+    transform: scale(0);
+    transition: transform 0.2s ease;
+}
+
+.menu>ol>.menu-item:hover:after {
+    transform: scale(1);
+}
+
+.menu-item {
+    position: relative;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.menu-item a {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    color: #FFF;
+    margin-top: 15px;
+}
+
+.sub-menu .menu-item {
+    padding: 0.75rem 0;
+    background: #6495ED;
+    opacity: 0;
+    transform-origin: bottom;
+    animation: enter 0.2s ease forwards;
+}
+
+.sub-menu .menu-item:nth-child(1) {
+    animation-duration: 0.2s;
+    animation-delay: 0s;
+}
+
+.sub-menu .menu-item:nth-child(2) {
+    animation-duration: 0.3s;
+    animation-delay: 0.1s;
+}
+
+.sub-menu .menu-item:nth-child(3) {
+    animation-duration: 0.4s;
+    animation-delay: 0.2s;
+}
+
+.sub-menu .menu-item:hover {
+    background: #6495ED;
+}
+
+.sub-menu .menu-item a {
+    padding: 0 0.75rem;
+}
+
+@media screen and (max-width: 600px) {
+    .sub-menu .menu-item {
+        background: #6495ED;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .menu {
+        position: relative;
+    }
+    .menu:after {
+        content: "";
+        position: absolute;
+        top: 74px;
+        right: 2rem;
+        width: 28px;
+        height: 5px;
+        background: #FFF;
+    }
+    .menu>ol {
+        display: none;
+        background: #6495ED;
+        flex-direction: column;
+        justify-content: center;
+        height: 109vh;
+        animation: fade 0.2s ease-out;
+    }
+    .menu>ol>.menu-item {
+        flex: 0;
+        opacity: 0;
+        animation: enter 0.3s ease-out forwards;
+    }
+    .menu>ol>.menu-item:nth-child(1) {
+        animation-delay: 0s;
+    }
+    .menu>ol>.menu-item:nth-child(2) {
+        animation-delay: 0.1s;
+    }
+    .menu>ol>.menu-item:nth-child(3) {
+        animation-delay: 0.2s;
+    }
+    .menu>ol>.menu-item:nth-child(4) {
+        animation-delay: 0.3s;
+    }
+    .menu>ol>.menu-item:nth-child(5) {
+        animation-delay: 0.4s;
+    }
+    .menu>ol>.menu-item+.menu-item {
+        margin-top: 0.75rem;
+    }
+    .menu>ol>.menu-item:after {
+        left: auto;
+        right: 1rem;
+        bottom: calc(50% - 2px);
+    }
+    .menu>ol>.menu-item:hover {
+        z-index: 1;
+    }
+    .menu:hover>ol {
+        display: flex;
+    }
+    .menu:hover:after {
+        box-shadow: none;
+    }
+}
+
+.sub-menu {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    display: none;
+    z-index: 1;
+}
+
+.menu-item:hover>.sub-menu {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+    .sub-menu {
+        width: 100vw;
+        left: -2rem;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+html,
+body {
+    font-size: 16px;
+    font-family: "Fira Mono", monospace;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+@keyframes enter {
+    from {
+        opacity: 0;
+        transform: scaleY(0.98) translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .menu {
+        height: 85px;
+    }
+}
+
+.woze20 {
+    width: 6%;
+    margin-left: 187px;
+    margin-top: -63px;
+    position: relative;
+    top: 139px;
+    left: -187px;
+}
+
+@media screen and (max-width: 600px) {
+    .woze20 {
+        opacity: 0;
+    }
+}
+
+.recherches {
+    height: 533px;
+    width: 360px;
+    margin-top: 234px;
+    margin-left: 445px;
+    background: #e4e4e4;
+    border-radius: 10px;
+    border: solid;
+}
+
+.marque {
+    margin-top: -65px;
+    margin-left: 469px;
+}
+
+.img1 {
+    margin-top: 75px;
+    margin-left: 82px;
+    width: 180px;
+}
+
+body {
+    font-family: 'Dancing Script', cursive;
+    font-size: 17px;
+}
+
+.menu {
+    line-height: 72px;
+    margin-top: -113px;
+}
+
+.m-left {
+    float: left;
+}
+
+.m-right {
+    float: right;
+}
+
+.icone-loupe {
+    background: url(../images/icons.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 31px;
+    border: 0px dotted;
+    position: relative;
+    left: 102px;
+    top: 37px;
+}
+
+.recherche {
+    position: relative;
+    left: 103px;
+    top: 27px;
+    height: 22px;
+    width: 154px;
+}
+
+.vitrine {
+    height: 553px;
+    width: 358px;
+    margin-top: 174px;
+    margin-left: 17px;
+    background: #e4e4e4;
+    border-radius: 10px;
+    border: solid;
+}
+
+.vitrine p {
+    color: black;
+}
+
+.vitrine0 {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.vitrine img {
+    margin-left: 83px;
+    margin-top: 25px;
+    height: 307px;
+    width: 222px;
+    border-radius: 11px;
+}
+
+.text {
+    margin-left: 22px;
+    margin-top: -11px;
+}
+
+.vitrine05 {
+    height: -11px;
+    width: 126px;
+    margin-top: 119px;
+    flex: 3 0 auto;
+    margin: -4px -177px 2px 220px;
+    padding: 29px;
+    margin-left: -21px;
+}
+
+.bouton20 {
+    background-color: white;
+    position: relative;
+    top: 29px;
+    left: 667px;
+    padding: 4px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.imge {
+    height: -11px;
+    width: 383px;
+    margin-top: 105px;
+    border-radius: 10px;
+    margin-top: 91px;
+    margin-left: 200px;
+}
+
+.texte {
+    font-size: 26px;
+    margin-top: 5px;
+    margin-left: 63px;
+    font-family: system-ui;
+}
+
+.texte2 {
+    margin-top: 132px;
+    margin-left: 4px;
+    font-size: 24px;
+    font-family: auto;
+}
+
+.contour {
+    height: 344px;
+    width: 689px;
+    /* margin-top: 150px; */
+    margin-left: 21px;
+    position: relative;
+    top: 135px;
+    border-radius: 0px;
+    margin-bottom: 53px;
+    border: 1px solid #0080ff;
+}
+
+.contour1 {
+    height: auto;
+    width: 658px;
+    position: relative;
+    top: 499px;
+    margin-left: -674px;
+    border-radius: 7px;
+    margin-bottom: 53px;
+    border: 1px solid #0080ff;
+}
+
+.contour2 {
+    height: 603px;
+    width: 686px;
+    position: relative;
+    top: 145px;
+    left: 54px;
+    border-radius: 8px;
+    margin-bottom: 53px;
+    border: 1px solid #0080ff;
+}
+
+.texte02 {
+    margin-top: 132px;
+    margin-left: 4px;
+    font-size: 24px;
+    font-family: auto;
+}
+
+.text03 {
+    font-size: 31px;
+    margin-top: 99px;
+    margin-left: 7px;
+    font-family: system-ui;
+    position: relative;
+    top: 16px;
+}
+
+@media screen and (max-width: 600px) {
+    .recherche {
+        opacity: 0;
+    }
+}
+
+.panier {
+    background: url(../images/panier.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 29px;
+    border: 0px dotted;
+    position: relative;
+    left: 1279px;
+    top: -35px;
+}
+
+.menu10 {
+    margin-left: 10px;
+}
+
+.bouton30 {
+    background-color: white;
+    position: relative;
+    top: 480px;
+    left: 247px;
+    padding: 4px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.vitrine06 {
+    margin-left: 83px;
+    margin-top: 25px;
+    height: 307px;
+    width: 219px;
+    border-radius: 11px;
+    padding: 3px;
+}
+
+.bouton40 {
+    background-color: white;
+    position: relative;
+    top: 674px;
+    left: -586px;
+    height: 55px;
+    background: #0080ff;
+    border-radius: 9px;
+    border: 1px solid #ffffff;
+    color: white;
+    padding: 10px;
+}
+
+.cart01 {
+    margin-top: 10px;
+}
+
+.texte1 {
+    position: relative;
+    top: 560px;
+    left: 1144px;
+    color: black;
+}
+
+.texte2 {
+    position: relative;
+    top: 330px;
+    left: 1085px;
+    color: black;
+}
+
+.texte3 {
+    position: relative;
+    top: 300px;
+    left: 797px;
+    color: black;
+}

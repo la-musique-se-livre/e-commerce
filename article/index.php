@@ -49,7 +49,7 @@
                     <h1 class="texte02">disponible: <?php if ($donnees['disponible'] == 1) {echo "oui"; } else {echo "non"; }?></h1>
                     </div>
 
-                    <input class="bouton40" type="submit" value="Ajouter au panier">
+                    <a href="../panier.php?id=<?= $donnees["id"] ?>"><input class="bouton40" type="submit" value="Ajouter au panier"></a>
 
                     
                 

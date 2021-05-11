@@ -4,9 +4,11 @@
       <div class="inner">
         <div class="m-left">
           <img class="woze20" src="/ppe/images/image.png" />
+          
+
         </div>
         <head>
-        <link href="/css/he" rel="stylesheet">
+        <link rel="stylesheet" href="css/.css" />
         </head>
 
         <form method="GET" action="recherche.php"> <input type="search" id="site-search" name="q" aria-label="Search through site content" class="recherche" />

@@ -35,7 +35,7 @@ if(isset($_GET['q']) AND !empty($_GET['q'])) {
 <?php while ($p = $nom->fetch()){ ?>
       <div class="recherches"><img class="img1" src="images/livre/<?= $p['id'] ?>_1.png">
       </div><div class="marque"><?= $p['marque'] ?></div><div class="marque"><?= $p['nom'] ?></div>
-      <a href="article/index.php?id=<?= $p["id"] ?>"><input class="bouton20" type="submit" value="Voir l'article"></a>
+      <a href="../PPE/article/index.php?id=<?= $p["id"] ?>"><input class="bouton20" type="submit" value="Voir l'article"></a>
 
       <?php
       }  

@@ -5,7 +5,7 @@ body {
 
 .menu {
     line-height: 72px;
-    margin-top: -99px;
+    margin-top: -113px;
 }
 
 .m-left {
@@ -113,13 +113,12 @@ body {
 .contour {
     height: 344px;
     width: 689px;
-    /* margin-top: 150px; */
     margin-left: 21px;
     position: relative;
     top: 135px;
     border-radius: 0px;
     margin-bottom: 53px;
-    border: 1px solid #0080ff;
+    border: 1px solid #bdc8d2db;
 }
 
 .contour1 {
@@ -128,9 +127,7 @@ body {
     position: relative;
     top: 499px;
     margin-left: -674px;
-    border-radius: 7px;
-    margin-bottom: 53px;
-    border: 1px solid #0080ff;
+    margin-bottom: 53px
 }
 
 .contour2 {
@@ -139,9 +136,8 @@ body {
     position: relative;
     top: 145px;
     left: 54px;
-    border-radius: 8px;
     margin-bottom: 53px;
-    border: 1px solid #0080ff;
+    border: 1px solid #bdc8d2db;
 }
 
 .texte02 {
