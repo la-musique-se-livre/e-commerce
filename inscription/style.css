@@ -196,15 +196,20 @@ h2 {
 
 body {
   font-size: 13px;
-  line-height: 1.8;
+  line-height: 0.8;
+  position: relative;
+  top: 103px;
   color: #222;
+  margin-top: -145px;
   font-weight: 400;
-  font-family: Poppins; }
+  font-family: Poppins;
+
+}
 
 .container {
-  width: 900px;
-  margin: 77px auto;
-  background: rgb(255, 255, 255); 
+  width: 838px;
+  margin: 78px auto;
+  background: rgb(255, 255, 255);
   box-shadow: 0px 15px 16.83px 0.17px rgba(255, 255, 255, 0.05);
   -moz-box-shadow: 0px 15px 16.83px 0.17px rgba(255, 255, 255, 0.05);
   -webkit-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
@@ -212,7 +217,7 @@ body {
   -ms-box-shadow: 0px 15px 16.83px 0.17px rgba(255, 255, 255, 0.05);
   border-radius: 20px;
   -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
+  -webkit-border-radius: 17px;
   -o-border-radius: 20px;
   -ms-border-radius: 20px; }
 
@@ -600,8 +605,14 @@ label.valid {
 }
 
 .sign-in{
-  background: #6495ED;
+  background: url(../images/flouu.jpg);
   
+}
+
+.colorr{
+    
+  border-radius: 14px;
+  border: 0.1rem #b93a3a solid;
 }
 
 .woze20{
@@ -611,13 +622,19 @@ label.valid {
 }
 
 .sexe1{
-  margin-left: -196px;
-  margin-top: -33px;
+  margin-left: -192px;
+  margin-top: -28px;
 }
 
 .sexe2{
-  margin-left: -196px;
-  margin-top: -33px;
+  margin-left: -192px;
+  margin-top: -29px;
+}
+
+.inscr{
+  margin: auto;
+  width: 209px;
+  position: relative;
 }
 
 .select{
@@ -627,6 +644,21 @@ label.valid {
   background-image: none;
   box-shadow: none;
   font-size: 1.2em;
+}
+
+.closse {
+  position: absolute;
+  top: 8px;
+  left: 70%;
+  transition: all 200ms;
+  font-size: 43px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+ .closse:hover {
+  color: #06D85F;
 }
 
 .bloc {
@@ -686,3 +718,5 @@ select {
     margin-left: -77px;
     margin-top: -34px;
   }
+
+ 

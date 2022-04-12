@@ -1,56 +1,154 @@
-.table>tbody>tr>td,
-.table>tfoot>tr>td {
-    vertical-align: middle;
-}
-
-@media screen and (max-width: 600px) {
-    table#cart tbody td .form-control {
-        width: 20%;
-        display: inline !important;
-    }
-    .actions .btn {
-        width: 36%;
-        margin: 1.5em 0;
-    }
-    .actions .btn-info {
-        float: left;
-    }
-    .actions .btn-danger {
-        float: right;
-    }
-    table#cart thead {
-        display: none;
-    }
-    table#cart tbody td {
-        display: block;
-        padding: .6rem;
-        min-width: 320px;
-    }
-    table#cart tbody tr td:first-child {
-        background: #333;
-        color: #fff;
-    }
-    table#cart tbody td:before {
-        content: attr(data-th);
-        font-weight: bold;
-        display: inline-block;
-        width: 8rem;
-    }
-    table#cart tfoot td {
-        display: block;
-    }
-    table#cart tfoot td .btn {
-        display: block;
-    }
-}
-
-.woze99 {
-    margin-top: 194px;
-    display: block;
-}
-
-.menu {
-    font-family: 'Dancing Script', cursive;
-}
-
-.woze98 {}
+                /*
+** Style Simple Ecommerce Theme for Bootstrap 4
+** Created by T-PHP https://t-php.fr/43-theme-ecommerce-bootstrap-4.html
+*/
+                
+                .bloc_left_price {
+                    color: #c01508;
+                    text-align: center;
+                    font-weight: bold;
+                    font-size: 150%;
+                }
+                
+                .category_block li:hover {
+                    background-color: #007bff;
+                }
+                
+                .category_block li:hover a {
+                    color: #ffffff;
+                }
+                
+                .category_block li a {
+                    color: #343a40;
+                }
+                
+                .add_to_cart_block .price {
+                    color: #c01508;
+                    text-align: center;
+                    font-weight: bold;
+                    font-size: 200%;
+                    margin-bottom: 0;
+                }
+                
+                .add_to_cart_block .price_discounted {
+                    color: #343a40;
+                    text-align: center;
+                    text-decoration: line-through;
+                    font-size: 140%;
+                }
+                
+                .product_rassurance {
+                    padding: 10px;
+                    margin-top: 15px;
+                    background: #ffffff;
+                    border: 1px solid #6c757d;
+                    color: #6c757d;
+                }
+                
+                .product_rassurance .list-inline {
+                    margin-bottom: 0;
+                    text-transform: uppercase;
+                    text-align: center;
+                }
+                
+                .product_rassurance .list-inline li:hover {
+                    color: #343a40;
+                }
+                
+                .reviews_product .fa-star {
+                    color: gold;
+                }
+                
+                .pagination {
+                    margin-top: 20px;
+                }
+                
+                footer {
+                    background: #343a40;
+                    padding: 40px;
+                }
+                
+                footer a {
+                    color: #f8f9fa!important
+                }
+                
+                td img {
+                    height: 58px;
+                    width: 49px;
+                    position: relative;
+                    left: 5px;
+                }
+                
+                .faa {
+                    display: inline-block;
+                    font: normal normal normal 14px/1 FontAwesome;
+                    font-size: inherit;
+                    text-rendering: auto;
+                    margin-top: 10px;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                }
+                
+                .btnn {
+                    display: inline-block;
+                    font-weight: 400;
+                    text-align: center;
+                    white-space: nowrap;
+                    vertical-align: middle;
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none;
+                    border: 1px solid transparent;
+                    padding: .375rem .75rem;
+                    font-size: 1rem;
+                    line-height: 1.5;
+                    border-radius: .25rem;
+                    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+                }
+                
+                .btnn-sm {
+                    padding: .25rem .5rem;
+                    font-size: .875rem;
+                    line-height: 1.5;
+                    border-radius: .2rem;
+                    margin-top: 11px;
+                    font-size: 16px;
+                }
+                
+                .rightt {
+                    position: relative;
+                    left: 203px;
+                }
+                
+                .btn-lgg {
+                    padding: .5rem 1rem;
+                    font-size: 1.25rem;
+                    line-height: 1.5;
+                    border-radius: .3rem;
+                    margin-left: 548px;
+                    margin-top: -40px;
+                }
+                
+                .btn-blockk {
+                    display: block;
+                    width: 100%;
+                }
+                
+                .btn-successs {
+                    color: #fff;
+                    background-color: #28a745;
+                    border-color: #28a745;
+                }
+                
+                .text-uppercasee {
+                    text-transform: uppercase!important;
+                }
+                
+                .quant {
+                    margin-left: 10px;
+                }
+                
+                .control {
+                    text-align: center;
+                }

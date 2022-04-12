@@ -1,54 +1,40 @@
-
- <?php
- require_once('../php/db.php');
- ?>
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sign Up Form by Colorlib</title>
-    <link rel="stylesheet" href="../login/login.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
- 
-    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
-
+    <link rel="stylesheet" href="../css/header_navigation/style.css">
+    <link rel="stylesheet" href="../css/header_navigation/login.css">
+    <link rel="stylesheet" href="../css/header_navigation/bootstrapp.min.css">
+    <link rel="stylesheet" href="../css/header_navigation/acceil.css">
+    <link rel="stylesheet" href="../css/header_navigation/acceill.css">
+    <link rel="stylesheet" href="../css/header_navigation/notife.css">
+    <link rel="stylesheet" href="../css/header_navigation/style.scss">
+    <link rel="stylesheet" href="../css/header_navigation/fonts/style.css">
+  
+  
+  
 </head>
-<body class="sign-in">
 
-    <div>
-        
-        <section>
-            <div class="container">
-                <div>
-                    
 
-                    <div class="signin-form">
-                 <div> <img class="woze20" src="../images/image.png"/></div>
-                        <form method="POST" class="register-form" id="login-form">
-                            <div class="form-group">
-                                <label for="email"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                                <input class="woze" name="mailconnect" id="email" placeholder="email"/>
-                            </div>
-                            <div class="form-group">
-                                <label for="mdpconnect"><i class="zmdi zmdi-lock"></i></label>
-                                <input class="woze" type="password" name="mdpconnect" id="mdpconnect" placeholder="Password"/>
-                            </div>
+<?php
+ require_once('../php/db.php');
+ require_once('../php/header_menu.php');
 
-                            <div class="form-group form-button">
-                                <input type="submit" name="formconnexion" id="signin" class="form-submit" value="Login"/>
-                            </div>
+ ?>
 
-                        </form>
+<script src="/js/navbar/jquery-3.3.1.min.js"></script>
 
-                    </div>
-                </div>
-            </div>
-        </section>
 
-    </div>
+<script src="/js/navbar/header_navigation/bootstrap.min.js"></script>
 
-   
-</body>
+<script src="../js/navbar/header_navigation/jquery-3.3.1.min.js"></script>
+<script src="../js/navbar/header_navigation/jquery.sticky.js"></script>
+<script src="../js/navbar/header_navigation/main.js"></script>
+<script src="../js/navbar/header_navigation/owl.carousel.min.js"></script>
+<script src="../js/navbar/header_navigation/popper.min.js"></script>
+ 
+ 
 </html>

@@ -1,9 +1,16 @@
 <?php
-$bdd = new PDO('mysql:host=localhost;dbname=klik_database;charset=utf8', 'root',''); ?>
 
-<?php
-function ver()
+
+
+try
 {
-    return time();
+	$bdd = new PDO('mysql:host=localhost;dbname=klik_database;charset=utf8', 'root', '');
 }
-?> 
+catch(Exception $e)
+{
+        die('Erreur : '.$e->getMessage());
+}
+
+
+
+?>

@@ -37,10 +37,10 @@ body {
 }
 
 .vitrine {
-    height: 553px;
-    width: 358px;
-    margin-top: 174px;
-    margin-left: 17px;
+    height: 557px;
+    width: 357px;
+    margin-top: 93px;
+    margin-left: 13px;
     background: #e4e4e4;
     border-radius: 10px;
     border: solid;
@@ -52,7 +52,7 @@ body {
 
 .vitrine0 {
     display: flex;
-    width: 100%;
+    width: 101%;
     flex-wrap: wrap;
 }
 
@@ -111,14 +111,50 @@ body {
 }
 
 .contour {
-    height: 344px;
-    width: 689px;
-    margin-left: 21px;
-    position: relative;
-    top: 135px;
-    border-radius: 0px;
-    margin-bottom: 53px;
-    border: 1px solid #bdc8d2db;
+    width: 22%;
+    margin: auto;
+    overflow: hidden;
+    background: skyblue;
+    margin-top: -362px;
+    height: 346px;
+    margin-left: 332px;
+}
+
+.contour ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.contour ul li {
+    float: left;
+    list-style: none;
+    width: 20%;
+    height: 300px;
+    background: red;
+    margin: 20px 0px 20px 55px;
+    border: 2px solid blue;
+    box-sizing: border-box;
+}
+
+.contour ul li:hover {
+    opacity: 0.8;
+}
+
+.contour ul li .bottom {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: blue;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+@media screen and (max-width:1250px) {
+    .contour ul li {
+        width: 40%;
+        margin-left: 40px;
+    }
 }
 
 .contour1 {
@@ -131,13 +167,49 @@ body {
 }
 
 .contour2 {
-    height: 603px;
-    width: 686px;
-    position: relative;
-    top: 145px;
-    left: 54px;
-    margin-bottom: 53px;
-    border: 1px solid #bdc8d2db;
+    width: 35%;
+    margin: auto;
+    overflow: hidden;
+    background: skyblue;
+    margin-top: 149px;
+    margin-left: 1099px;
+}
+
+.contour2 ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.contour2 ul li {
+    float: left;
+    list-style: none;
+    width: 20%;
+    height: 300px;
+    background: red;
+    margin: 20px 0px 20px 55px;
+    border: 2px solid blue;
+    box-sizing: border-box;
+}
+
+.contour2 ul li:hover {
+    opacity: 0.8;
+}
+
+.contour2 ul li .bottom {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: blue;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+@media screen and (max-width:1250px) {
+    .contour2 ul li {
+        width: 40%;
+        margin-left: 40px;
+    }
 }
 
 .texte02 {
@@ -207,4 +279,49 @@ body {
     border: 1px solid #ffffff;
     color: white;
     padding: 10px;
+}
+
+.bloc {
+    width: 22%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 91px;
+    height: 375px;
+}
+
+.bloc ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.bloc ul li {
+    float: left;
+    list-style: none;
+    width: 20%;
+    height: 300px;
+    background: red;
+    margin: 20px 0px 20px 55px;
+    border: 2px solid blue;
+    box-sizing: border-box;
+}
+
+.bloc ul li:hover {
+    opacity: 0.8;
+}
+
+.bloc ul li .bottom {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: blue;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+@media screen and (max-width:1250px) {
+    .bloc ul li {
+        width: 40%;
+        margin-left: 40px;
+    }
 }
