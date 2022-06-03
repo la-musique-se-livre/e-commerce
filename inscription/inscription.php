@@ -59,8 +59,8 @@
         $test = $req->execute();
         $donnees = $req ->fetch();
         $to   = $email;
-        $from = 'ppebts2022@gmail.com';
-        $name = 'woze';
+        $from = '';
+        $name = '';
         $subj = 'Email de confirmation de compte';
         $msg = 'http://127.0.0.1/ppe/verif.php?id='.$donnees['idUsers'].'&cle='.$donnees['cle'];
         
@@ -73,17 +73,17 @@
                 $mail->SMTPSecure = 'ssl'; 
                 $mail->Host = 'smtp.gmail.com';
                 $mail->Port = '465';  
-                $mail->Username = 'ppebts2022@gmail.com';
-                $mail->Password = '.Feaflight17';   
+                $mail->Username = '';
+                $mail->Password = '';   
            
            //   $path = 'reseller.pdf';
            //   $mail->AddAttachment($path);
            
                 $mail->IsHTML(true);
                 $mail->From="ppebts2022@gmail.com";
-                $mail->FromName='ilia';
-                $mail->Sender='ppebts2022@gmail.com';
-                $mail->AddReplyTo('ppebts2022@gmail.com', 'ilia');
+                $mail->FromName='';
+                $mail->Sender='';
+                $mail->AddReplyTo('', '');
                 $mail->Subject = "confirmation de votre inscription";
                 $mail->Body = $msg;
                 $mail->AddAddress($to);
